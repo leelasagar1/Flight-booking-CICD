@@ -83,7 +83,7 @@ with DAG(
         batch=batch_details,
         batch_id=batch_id,
         project_id="fluted-reporter-440904-e2",
-        region="us-east2",
+        region="us-east1",
         gcp_conn_id="google_cloud_default",
     )
 
