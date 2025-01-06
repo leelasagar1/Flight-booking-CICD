@@ -72,8 +72,8 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 "service_account": "551935771867-compute@developer.gserviceaccount.com",
-                "network_uri": "projects/psyched-service-442305-q1/global/networks/default",
-                "subnetwork_uri": "projects/psyched-service-442305-q1/regions/us-east1/subnetworks/default",
+                "network_uri": "projects/fluted-reporter-440904-e2/global/networks/default",
+                "subnetwork_uri": "projects/fluted-reporter-440904-e2/regions/us-east1/subnetworks/default",
             }
         },
     }
@@ -82,7 +82,7 @@ with DAG(
         task_id="run_spark_job_on_dataproc_serverless",
         batch=batch_details,
         batch_id=batch_id,
-        project_id="psyched-service-442305-q1",
+        project_id="fluted-reporter-440904-e2",
         region="us-east2",
         gcp_conn_id="google_cloud_default",
     )
